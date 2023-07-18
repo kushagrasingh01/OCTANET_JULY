@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-image"></div>
+  <div class="container">
+    <h1>To-Do List</h1>
+    <div class="form-container">
+      <input id="taskInput" type="text" placeholder="Enter a task">
+      <select id="categorySelect">
+        <option value="default">Select Category</option>
+        <option value="Personal">Personal</option>
+        <option value="Study">Study</option>
+        <option value="Health">Health</option>
+        <option value="Shopping">Shopping</option>
+        <option value="Home">Home</option>
+        <option value="Work">Work</option>
+      </select>
+      <input id="deadlineInput" type="date">
+      <select id="prioritySelect">
+        <option value="default">Select Priority</option>
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+      </select>
+      <button onclick="addTask()">Add Task</button>
+    </div>
+    
+    <table id="taskTable">
+      <thead>
+        <tr>
+          <th>Task</th>
+          <th>Category</th>
+          <th>Deadline</th>
+          <th>Priority</th>
+          <th>State</th>
+        </tr>
+      </thead>
+      <tbody id="taskList"></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
