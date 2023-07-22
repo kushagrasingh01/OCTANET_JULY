@@ -32,7 +32,7 @@
     border: 1.5px solid white;
 }
 
-/**box 2**/
+
 .add-first{
     color:#cccccc;
     font-size: 0.85rem;
@@ -47,7 +47,6 @@
     align-items: center;
 }
 
-/**box 3**/
 .nav-search{
     display: flex;
     justify-content: space-evenly;
@@ -89,7 +88,7 @@
 .nav-search:hover{
     border:2px solid orange ;
 }
-/**box 4**/
+
 span{
     font-size: 0.7rem;
 }
@@ -100,7 +99,7 @@ span{
 
 }
 
-/**box 6**/
+
 .nav-cart i{
     font-size: 30px;
 }
@@ -110,7 +109,7 @@ span{
     font-weight: 700;
 }
 
-/**panel**/
+
 .panel{
     height: 40px;
     background-color: #222f3d;
@@ -150,7 +149,7 @@ span{
 
 
 
-/**hero-section**/
+
 .hero-section{
     background-image: url("hero_image.jpg");
     background-size: cover;
@@ -179,7 +178,7 @@ span{
 
 }
 
-/**shop section**/
+
 .shop-section{
     display: flex;
     flex-wrap: wrap;
@@ -187,7 +186,7 @@ span{
     background-color:#e2e7e6 ;
 }
 .box{
-    /* border: 2px solid black; */
+   
     height: 400px; 
     width: 23%;
     background-color: white;
@@ -259,7 +258,7 @@ span{
     width:14% ;
 }
 
-/**footer**/
+
 .footer{
     margin-top:15px;
 }
